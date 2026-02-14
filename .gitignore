@@ -38,9 +38,10 @@ env/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Data files (optional - comment out if you want to track them)
-*.csv
+# Data files
 *.xlsx
+# Allow model CSV files
+!model/*.csv
 
 # OS
 .DS_Store
@@ -48,3 +49,10 @@ Thumbs.db
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Internal Documentation (not required for assignment submission)
+FINAL_QA_REPORT.md
+ASSIGNMENT_COMPLIANCE_VERIFICATION.md
+PROJECT_SUMMARY.md
+EXECUTION_GUIDE.md
+SUBMISSION_TEMPLATE.md
